@@ -1,0 +1,57 @@
+xiaxueqaq@DESKTOP-QO9KFO3:/mnt/c/Users/xiaxueqaq$ qepcad +N10000000
+=======================================================
+                Quantifier Elimination
+                          in
+            Elementary Algebra and Geometry
+                          by
+      Partial Cylindrical Algebraic Decomposition
+
+      Version B 1.74, Thu Feb 25 14:48:53 EST 2021
+
+                          by
+                       Hoon Hong
+                  (hhong@math.ncsu.edu)
+
+With contributions by: Christopher W. Brown, George E.
+Collins, Mark J. Encarnacion, Jeremy R. Johnson
+Werner Krandick, Richard Liska, Scott McCallum,
+Nicolas Robidoux, and Stanly Steinberg
+=======================================================
+Enter an informal description  between '[' and ']':
+[Hong-3]
+Enter a variable list:
+(x0,x1,x2)
+Enter the number of free variables:
+0
+Enter a prenex formula:
+(E x0)(E x1)(E x2)[[x0^2+x1^2+x2^2<1]/\[x0 x1 x2>1]].
+
+
+=======================================================
+
+Before Normalization >
+go
+
+Before Projection (x2) >
+go
+
+Before Choice >
+go
+
+Before Solution >
+go
+
+An equivalent quantifier-free formula:
+
+FALSE
+
+
+=====================  The End  =======================
+
+-----------------------------------------------------------------------------
+0 Garbage collections, 0 Cells and 0 Arrays reclaimed, in 0 milliseconds.
+4941977 Cells in AVAIL, 5000000 Cells in SPACE.
+
+System time: 16 milliseconds.
+System time after the initialization: 8 milliseconds.
+-----------------------------------------------------------------------------

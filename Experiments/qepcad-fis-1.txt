@@ -1,0 +1,57 @@
+xiaxueqaq@DESKTOP-QO9KFO3:/mnt/c/Users/xiaxueqaq$ qepcad +N10000000
+=======================================================
+                Quantifier Elimination
+                          in
+            Elementary Algebra and Geometry
+                          by
+      Partial Cylindrical Algebraic Decomposition
+
+      Version B 1.74, Thu Feb 25 14:48:53 EST 2021
+
+                          by
+                       Hoon Hong
+                  (hhong@math.ncsu.edu)
+
+With contributions by: Christopher W. Brown, George E.
+Collins, Mark J. Encarnacion, Jeremy R. Johnson
+Werner Krandick, Richard Liska, Scott McCallum,
+Nicolas Robidoux, and Stanly Steinberg
+=======================================================
+Enter an informal description  between '[' and ']':
+[FIS-ex-1]
+Enter a variable list:
+(a,b,c,x,y)
+Enter the number of free variables:
+3
+Enter a prenex formula:
+(A x)(A y)[[ b^2 (x-c)^2 + a^2 y^2 = a^2 b^2 ] ==> [x^2+y^2<=1]].
+
+
+=======================================================
+
+Before Normalization >
+go
+
+Before Projection (y) >
+go
+
+Before Choice >
+go
+
+Before Solution >
+go
+
+An equivalent quantifier-free formula:
+
+a /= 0 /\ b /= 0 /\ c - a - 1 <= 0 /\ c - a + 1 >= 0 /\ c + a - 1 <= 0 /\ c + a + 1 >= 0 /\ [ b^2 + a < 0 \/ b^2 - a < 0 \/ b^2 c^2 + b^4 - a^2 b^2 - b^2 + a^2 <= 0 ]
+
+
+=====================  The End  =======================
+
+-----------------------------------------------------------------------------
+4 Garbage collections, 19693008 Cells and 361 Arrays reclaimed, in 42 milliseconds.
+746712 Cells in AVAIL, 5000000 Cells in SPACE.
+
+System time: 371 milliseconds.
+System time after the initialization: 363 milliseconds.
+-----------------------------------------------------------------------------

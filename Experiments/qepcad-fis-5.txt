@@ -1,0 +1,49 @@
+xiaxueqaq@DESKTOP-QO9KFO3:/mnt/c/Users/xiaxueqaq$ qepcad +N8000000
+=======================================================
+                Quantifier Elimination
+                          in
+            Elementary Algebra and Geometry
+                          by
+      Partial Cylindrical Algebraic Decomposition
+
+      Version B 1.74, Thu Feb 25 14:48:53 EST 2021
+
+                          by
+                       Hoon Hong
+                  (hhong@math.ncsu.edu)
+
+With contributions by: Christopher W. Brown, George E.
+Collins, Mark J. Encarnacion, Jeremy R. Johnson
+Werner Krandick, Richard Liska, Scott McCallum,
+Nicolas Robidoux, and Stanly Steinberg
+=======================================================
+Enter an informal description  between '[' and ']':
+[FIS-ex-5]
+Enter a variable list:
+(a,b,x,y,z)
+Enter the number of free variables:
+2
+Enter a prenex formula:
+(E x)(E y)(E z)[[x y + a x z + y z - 1 = 0] /\ [x y z + x z + x y = a] /\ [x z+ y z - a z - x - y - 1 = 0] /\ [a x y = b y z] /\ [a y z = b z x]].
+
+
+=======================================================
+
+Before Normalization >
+go
+
+Before Projection (z) >
+go
+
+** 798558 cells, 19999 arrays in 42 milliseconds.
+
+
+Failure occurred in:    GCSI (final check)
+Reason for the failure: Too few cells reclaimed.
+
+N   = 798558
+NU  = 8000000
+RHO = 10
+
+
+Now the FAIL handler is aborting the program ...

@@ -1,0 +1,48 @@
+xiaxueqaq@DESKTOP-QO9KFO3:/mnt/c/Users/xiaxueqaq$ qepcad +N10000000
+=======================================================
+                Quantifier Elimination
+                          in
+            Elementary Algebra and Geometry
+                          by
+      Partial Cylindrical Algebraic Decomposition
+
+      Version B 1.74, Thu Feb 25 14:48:53 EST 2021
+
+                          by
+                       Hoon Hong
+                  (hhong@math.ncsu.edu)
+
+With contributions by: Christopher W. Brown, George E.
+Collins, Mark J. Encarnacion, Jeremy R. Johnson
+Werner Krandick, Richard Liska, Scott McCallum,
+Nicolas Robidoux, and Stanly Steinberg
+=======================================================
+Enter an informal description  between '[' and ']':
+[FIS-ex-2]
+Enter a variable list:
+(s,x,y,z)
+Enter the number of free variables:
+1
+Enter a prenex formula:
+(E x)(E y)(E z)[[1/200 x s (1 - 1/400 x) + y s (1 - 1/400 x) - 35/2 x = 0] /\ [250 x s (1 - 1/600 y) (z + 3/250) - 55/2
+] /\ [50y = 0] /\ [500 (y + 1/20 x) (1 - 1/700 z) - 5 z = 0]].
+
+
+=======================================================
+
+Before Normalization >
+go
+
+Before Projection (z) >
+go
+
+Before Choice >
+go
+
+
+Failure occurred in:    IUPRC
+Reason for the failure: Prime list exausted
+
+
+
+Now the FAIL handler is aborting the program ...
