@@ -1,3 +1,6 @@
+# UPDATE:
+Please move to the new package [GeometricCADv2](https://github.com/xiaxueqaq/GeometricCADv2) for a more efficient and simpler implementation.
+
 # GeometricCAD
 A geometrical algorithm of cylindrical algebraic decomposition based on Grothendieck's Generic Freeness Lemma and Parametric Hermite Quadratic Form.
 
